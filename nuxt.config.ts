@@ -23,4 +23,12 @@ export default defineNuxtConfig({
 			redirect: '/home',
 		},
 	},
+
+	nitro: {
+		preset: 'cloudflare-pages',
+		cloudflare: {
+			deployConfig: true,
+			nodeCompat: true,
+		},
+	},
 });
