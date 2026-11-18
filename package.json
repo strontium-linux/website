@@ -1,0 +1,33 @@
+{
+  "name": "strontium-website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check ."
+  },
+  "dependencies": {
+    "@m3e/web": "^2.13.0",
+    "@nuxt/content": "^3.16.2",
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/icon": "^2.6.2",
+    "@nuxt/image": "^2.2.1",
+    "@nuxtjs/robots": "^7.0.2",
+    "@nuxtjs/seo": "^6.0.1",
+    "@nuxtjs/sitemap": "^9.1.0",
+    "better-sqlite3": "^13.2.0",
+    "eslint": "^10.15.0",
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.100",
+    "oxfmt": "^0.79.0"
+  }
+}
