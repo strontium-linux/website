@@ -6,7 +6,6 @@ export default defineNuxtConfig({
 		'@nuxtjs/seo',
 		'@nuxtjs/robots',
 		'@nuxtjs/sitemap',
-		'@nuxt/content',
 		'@nuxt/image',
 	],
 	compatibilityDate: '2025-07-15',
