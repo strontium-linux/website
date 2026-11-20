@@ -1,75 +1,41 @@
-# Nuxt Minimal Starter
+# Strontium Linux Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Repository for the [Strontium Linux website](https://strontium.ingstudios.dev).
 
-## Setup
+## Contributing
 
-Make sure to install dependencies:
+Contributions are welcomed! Do note that **all AI generated code is banned** to ensure quality and consistency like our other projects.
+
+## Building
+
+### Prerequisites
+
+- **Node.js and npm**
+
+### Run steps
+
+1. **Install dependencies**
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+2. **Run development server**
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Build steps
 
-Build the application for production:
+1. **Run build script**
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## License
 
-```bash
-# npm
-npm run preview
+Strontium Linux website is licensed under the [Apache 2.0 License](/LICENSE) like our other repositories.
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+© 2026 (ing) Studios, Strontium Linux contributors, and Ethan Lee
